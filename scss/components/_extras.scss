@@ -1,0 +1,33 @@
+@import "../components/mixin";
+
+/* estilos extras */
+
+section{
+    @include flex;
+    font-size: 28px;
+}
+
+.productos1 {
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+}
+
+legend {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+main form fieldset div input{
+    margin-top: 35px;
+}
+
+.boton-enviar {
+    margin-top: 40px;
+}
+
+.bottom-footer-contacto {
+    position: static;
+    bottom: 0;
+    width: 100%;
+}
